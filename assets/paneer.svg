@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#fff4e9"/>
+  <circle cx="200" cy="135" r="86" fill="#f5d0a9"/>
+  <rect x="145" y="95" width="32" height="32" fill="#d96f1e"/>
+  <rect x="190" y="105" width="34" height="34" fill="#e58b3c"/>
+  <rect x="236" y="95" width="30" height="30" fill="#d96f1e"/>
+  <text x="48" y="35" font-size="25" font-family="Arial" fill="#964500">Paneer Tikka Bowl</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#fff7ec"/>
+  <ellipse cx="200" cy="100" rx="110" ry="40" fill="#e8a84a"/>
+  <rect x="90" y="110" width="220" height="20" rx="8" fill="#4f8c3e"/>
+  <rect x="90" y="130" width="220" height="25" rx="8" fill="#723c1a"/>
+  <rect x="90" y="155" width="220" height="16" rx="8" fill="#ffd94a"/>
+  <ellipse cx="200" cy="175" rx="112" ry="30" fill="#d08d38"/>
+  <text x="25" y="35" font-size="26" font-family="Arial" fill="#7a3a12">Farmhouse Burger</text>
+</svg>
