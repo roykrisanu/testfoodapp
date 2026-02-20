@@ -1,0 +1,62 @@
+[
+  {
+    "id": "taco-plate",
+    "name": "Street Taco Plate",
+    "restaurant": "La Esquina Kitchen",
+    "cuisine": "Mexican",
+    "description": "Three grilled chicken tacos with salsa verde and cilantro rice.",
+    "price": 11.5,
+    "deliveryTime": "20-25 min",
+    "image": "assets/taco.svg"
+  },
+  {
+    "id": "farm-burger",
+    "name": "Farmhouse Beef Burger",
+    "restaurant": "GreenBarn Grill",
+    "cuisine": "American",
+    "description": "Grass-fed patty, cheddar, caramelized onions, and garlic fries.",
+    "price": 14,
+    "deliveryTime": "25-30 min",
+    "image": "assets/burger.svg"
+  },
+  {
+    "id": "paneer-bowl",
+    "name": "Paneer Tikka Bowl",
+    "restaurant": "Spice Route Local",
+    "cuisine": "Indian",
+    "description": "Tandoori paneer, turmeric rice, pickled onions, and mint chutney.",
+    "price": 12.75,
+    "deliveryTime": "20-28 min",
+    "image": "assets/paneer.svg"
+  },
+  {
+    "id": "ramen-miso",
+    "name": "Creamy Miso Ramen",
+    "restaurant": "Sakura Noodle House",
+    "cuisine": "Japanese",
+    "description": "Rich miso broth with noodles, corn, egg, and spring onions.",
+    "price": 13.25,
+    "deliveryTime": "18-24 min",
+    "image": "assets/ramen.svg"
+  },
+  {
+    "id": "mediterranean-wrap",
+    "name": "Mediterranean Falafel Wrap",
+    "restaurant": "Olive Street Café",
+    "cuisine": "Mediterranean",
+    "description": "Crispy falafel, hummus, cucumber salad, and tahini sauce.",
+    "price": 10.5,
+    "deliveryTime": "15-22 min",
+    "image": "assets/wrap.svg"
+  },
+  {
+    "id": "veggie-pizza",
+    "name": "Stone Oven Veggie Pizza",
+    "restaurant": "Bricklane Pizzeria",
+    "cuisine": "Italian",
+    "description": "Thin crust pizza with peppers, olives, mushrooms, and basil.",
+    "price": 15.2,
+    "deliveryTime": "28-35 min",
+    "image": "assets/pizza.svg"
+  }
+]

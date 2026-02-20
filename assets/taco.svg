@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffd87a"/><stop offset="1" stop-color="#f9b94e"/></linearGradient></defs>
+  <rect width="400" height="250" fill="#fff5df"/>
+  <ellipse cx="135" cy="140" rx="95" ry="55" fill="url(#g)"/>
+  <ellipse cx="265" cy="140" rx="95" ry="55" fill="url(#g)"/>
+  <circle cx="135" cy="130" r="18" fill="#d94f0f"/><circle cx="265" cy="130" r="18" fill="#d94f0f"/>
+  <text x="20" y="35" font-size="26" font-family="Arial" fill="#8a4a00">Street Taco Plate</text>
+</svg>

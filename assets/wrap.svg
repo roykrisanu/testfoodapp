@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f4fff2"/>
+  <polygon points="140,60 270,120 180,210" fill="#e9d5a6"/>
+  <circle cx="210" cy="120" r="7" fill="#5b8e39"/>
+  <circle cx="190" cy="140" r="7" fill="#5b8e39"/>
+  <circle cx="220" cy="150" r="7" fill="#5b8e39"/>
+  <text x="20" y="35" font-size="24" font-family="Arial" fill="#44652c">Falafel Wrap</text>
+</svg>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalBite - Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="top-nav container">
+        <h1>LocalBite</h1>
+        <button id="view-cart-btn" class="btn secondary">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+      <div class="container hero-content">
+        <div>
+          <p class="label">Support nearby restaurants</p>
+          <h2>Fresh local meals delivered in under 35 minutes.</h2>
+          <p>
+            Discover handcrafted dishes from neighborhood kitchens with transparent pricing,
+            real ingredients, and live cart totals.
+          </p>
+          <div class="search-row">
+            <input id="search-input" type="text" placeholder="Search dishes or restaurants..." />
+            <select id="cuisine-filter">
+              <option value="all">All cuisines</option>
+            </select>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Today's Local Deal</h3>
+          <p>Get <strong>15% OFF</strong> on orders above $30 from local vendors.</p>
+          <small>Code: <span class="promo">LOCAL15</span></small>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main-grid">
+      <section>
+        <h3 class="section-title">Popular Near You</h3>
+        <div id="menu-grid" class="menu-grid"></div>
+      </section>
+
+      <aside id="cart-panel" class="cart-panel">
+        <h3>Your Order</h3>
+        <ul id="cart-items" class="cart-items"></ul>
+        <div class="cart-summary">
+          <p>Subtotal <span id="subtotal">$0.00</span></p>
+          <p>Delivery <span id="delivery-fee">$3.99</span></p>
+          <p class="total">Total <span id="total">$3.99</span></p>
+        </div>
+        <button id="checkout-btn" class="btn primary full">Checkout</button>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Built with local menu content • Prices in USD • © 2026 LocalBite</p>
+    </footer>
+
+    <template id="menu-card-template">
+      <article class="menu-card">
+        <img alt="Food item image" class="item-image" />
+        <div class="menu-content">
+          <div class="meta-row">
+            <span class="restaurant"></span>
+            <span class="delivery-time"></span>
+          </div>
+          <h4 class="item-name"></h4>
+          <p class="item-description"></p>
+          <div class="card-footer">
+            <span class="price"></span>
+            <button class="btn primary add-btn">Add</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
